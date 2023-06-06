@@ -1,7 +1,23 @@
 # Changelog
 
-Mirrorfly UI Kit SDK has been recently updated to V1.0.21 with features.
-Release Version: V1.0.21
+Mirrorfly UI Kit SDK has been recently updated to V1.0.19 with features.
+Release Version: V1.0.19
+Release Date: Jun 06, 2023
+
+Release Notes :
+
+Recent Chat Pagination
+Chat Conversation Screen Pagination
+Contact, Forward and Invite (Pagination and Search)
+View Media 
+User Block
+Feature Flag
+Call Log Search
+Thumbnail Image
+
+
+Mirrorfly UI Kit SDK has been recently updated to V1.0.18 with features.
+Release Version: V1.0.18
 Release Date: May 16, 2023
 
 Release Notes :
@@ -10,7 +26,7 @@ Contact Attachment
 Location Attachment
 
 Mirrorfly UI Kit SDK has been recently updated to V1.0.20 with hotfixes.
-Release Version: V1.0.20
+Release Version: V1.0.17
 Release Date: May 08, 2023
 
 Release Notes :
@@ -20,7 +36,7 @@ BugFixes in Group Restriction
 
 
 Mirrorfly UI Kit SDK has been recently updated to V1.0.19 with features.
-Release Version: V1.0.19
+Release Version: V1.0.16
 Release Date: Apr 24, 2023
 
 Release Notes :
@@ -32,7 +48,7 @@ Chat PushNotification for both Chat and Calls
 
 
 Mirrorfly UI Kit SDK has been recently updated to V1.0.18 with features.
-Release Version: V1.0.18
+Release Version: V1.0.15
 Release Date: Apr 06, 2023
 
 Release Notes :
@@ -40,7 +56,7 @@ Release Notes :
 Copy Chat Message
 
 Mirrorfly UI Kit SDK has been recently updated to V1.0.17 with features.
-Release Version: V1.0.17
+Release Version: V1.0.14
 Release Date: Mar 27, 2023
 
 Release Notes :
@@ -52,7 +68,7 @@ Leave Group
 Invite participants to call
 
 Mirrorfly UI Kit SDK has been recently updated to V1.0.16 with features.
-Release Version: V1.0.16
+Release Version: V1.0.13
 Release Date: Feb 15, 2023
 
 Release Notes :
@@ -62,7 +78,7 @@ Audio attachment and Audio Recording
 
 
 Mirrorfly UI Kit SDK has been recently updated to V1.0.15 with features.
-Release Version: V1.0.15
+Release Version: V1.0.12
 Release Date: Jan 05, 2023
 
 Release Notes :
@@ -75,7 +91,7 @@ Hide Contact / Group / Profile - Suwan Client
 
 
 Mirrorfly UI Kit SDK has been recently updated to V1.0.14 with features.
-Release Version: V1.0.14
+Release Version: V1.0.11
 Release Date: Dec 15, 2022
 
 

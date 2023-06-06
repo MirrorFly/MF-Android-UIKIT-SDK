@@ -34,7 +34,7 @@ The requirements for UI-KIT SDK for Android are:
 **Step 3:** Add the following dependencies in the app/build.gradle file.
    ```groovy
    dependencies {
-          implementation 'com.mirrorfly.uikitsdk:mf-uikitsdk:1.0.17'
+          implementation 'com.mirrorfly.uikitsdk:mf-uikitsdk:1.0.19'
     }
    ```
    
@@ -93,32 +93,9 @@ class BaseApplication : Application() {
             override fun setLicence(): String {
                 return "YOUR_LICENCE_KEY"
             }
-            override fun isCallEnabled(): Boolean {
-                return true 
-            }
-
-            override fun isContactEnable(): Boolean? {
-                return true
-            }
-
-            override fun isGroupEnable(): Boolean? {
-                return true
-            }
-
-            override fun isOtherProfileEnable(): Boolean? {
-                return true
-            }
-
-            override fun isOwnProfileEnable(): Boolean? {
-                return true
-            }
 
             override fun isTrialLicenceKey(): Boolean? {
                 return true 
-            }
-
-            override fun setGoogleTranslationKey(): String? {
-                return "YOUR_GOOGLE_TRANSLATION_KEY"
             }
             
             override fun setApplicationID(): String? {
@@ -127,6 +104,12 @@ class BaseApplication : Application() {
         })
         
         MirrorFlyUIKit.defaultThemeMode = MirrorFlyUIKit.ThemeMode.Light
+        MirrorFlyUIKit.isContactEnable = true
+        MirrorFlyUIKit.isCallEnabled = true
+        MirrorFlyUIKit.isGroupEnable = true
+        MirrorFlyUIKit.isOtherProfileEnable = true
+        MirrorFlyUIKit.isOwnProfileEnable = true
+        MirrorFlyUIKit.setGoogleTranslationKey = "GOOGLE TRANSLATION KEY"
     }
 }
 ```
