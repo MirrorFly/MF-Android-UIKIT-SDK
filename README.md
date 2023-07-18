@@ -26,7 +26,7 @@ The requirements for UI-KIT SDK for Android are:
         repositories {
            jcenter()
                maven {
-                 url "https://repo.mirrorfly.com/snapshot"
+                 url "https://repo.mirrorfly.com/release"
        }
     }}
    ```
@@ -34,7 +34,7 @@ The requirements for UI-KIT SDK for Android are:
 **Step 3:** Add the following dependencies in the app/build.gradle file.
    ```groovy
    dependencies {
-          implementation 'com.mirrorfly.uikitsdk:mf-uikitsdk:1.0.20'
+          implementation 'com.mirrorfly.uikitsdk:mf-uikitsdk:1.0.23'
     }
    ```
    
