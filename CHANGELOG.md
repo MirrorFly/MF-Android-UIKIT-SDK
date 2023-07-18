@@ -1,5 +1,16 @@
 # Changelog
 
+Mirrorfly UI Kit SDK has been recently updated to V1.0.22 with features.
+Release Version: V1.0.22
+Release Date: Jul 18, 2023
+
+Release Notes :
+
+Logout
+Search in Chat Conversation 
+Blocked Contact in Setting
+
+
 Mirrorfly UI Kit SDK has been recently updated to V1.0.20 with features.
 Release Version: V1.0.20
 Release Date: Jun 06, 2023
