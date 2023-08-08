@@ -34,7 +34,7 @@ The requirements for UI-KIT SDK for Android are:
 **Step 3:** Add the following dependencies in the app/build.gradle file.
    ```groovy
    dependencies {
-          implementation 'com.mirrorfly.uikitsdk:mf-uikitsdk:1.0.23'
+          implementation 'com.mirrorfly.uikitsdk:mf-uikitsdk:1.0.24'
     }
    ```
    
@@ -43,6 +43,7 @@ The requirements for UI-KIT SDK for Android are:
 	buildscript {
  
 	dependencies {
+     classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.21'
      def nav_version = "2.3.5"
      classpath "androidx.navigation:navigation-safe-args-gradle-plugin:$nav_version"
  }
@@ -69,6 +70,8 @@ The MirrorFlyUIKit.init() must be called once in the onCreate() method of your a
 
 >Note: While registration, the below `registerUser` method will accept the `FCM_TOKEN` as an optional param and pass it across.
 
+**Step 1:** Add the below line in the application class file.
+
 ```kotlin
  package com.example.mfuikittest
 
@@ -87,30 +90,82 @@ class BaseApplication : Application() {
             override fun setAppName(): String? {
                 return "YOUR_APP_NAME"
             }
-            override fun setBaseUrl(): String {
-                return "YOUR_BASE_URL"
-            }
-            override fun setLicence(): String {
-                return "YOUR_LICENCE_KEY"
-            }
-
-            override fun isTrialLicenceKey(): Boolean? {
-                return true 
-            }
             
             override fun setApplicationID(): String? {
                 return "YOUR_APPLICATION_ID"
             }
+            
+            //Below override methods are optional used for customization
+            
+            override fun isCallEnabled(): Boolean? {
+                return true
+            }
+
+            override fun isGroupEnable(): Boolean? {
+                return true
+            }
+
+            override fun isContactEnable(): Boolean? {
+                return true
+            }
+
+            override fun isLogoutEnable(): Boolean? {
+                return true
+            }
+
+            override fun isOtherProfileEnable(): Boolean? {
+                return true
+            }
+
+            override fun isOwnProfileEnable(): Boolean? {
+                return true
+            }
+
+            override fun setGoogleTranslationKey(): String? {
+                return getString(R.string.google_key)
+            }
+
+            override fun onlyOnetoOneChat(): Boolean? {
+                return false
+            }
         })
         
         MirrorFlyUIKit.defaultThemeMode = MirrorFlyUIKit.ThemeMode.Light
-        MirrorFlyUIKit.isContactEnable = true
-        MirrorFlyUIKit.isCallEnabled = true
-        MirrorFlyUIKit.isGroupEnable = true
-        MirrorFlyUIKit.isOtherProfileEnable = true
-        MirrorFlyUIKit.isOwnProfileEnable = true
-        MirrorFlyUIKit.setGoogleTranslationKey = "GOOGLE TRANSLATION KEY"
+        MirrorFlyUIKit.loginActivity = "LoginActivity"::class.java
     }
+}
+```
+**Step 2:** Add the below line in the Launcher class file.
+
+```kotlin
+ class SplashTestActivity : AppCompatActivity() {
+    
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_splash)
+        MirrorFlyUIKit.initializeSDK(this@SplashTestActivity,SplashTestActivity::class.java,"YOUR_LICENCE_KEY",object : FlyInitializeSDKCallback{
+            
+            override fun flyError(
+                isSuccess: Boolean,
+                throwable: Throwable?,
+                data: HashMap<String, Any>
+            ) {
+                //TODO Error Handling 
+            }
+
+            override fun redirectToDashBoard(isSuccess: Boolean) {
+                startActivity(Intent(this@SplashTestActivity, MFUIDemoActivity::class.java))
+                finish()
+            }
+
+            override fun redirectToLogin(isSuccess: Boolean) {
+                startActivity(Intent(this@SplashTestActivity, MainActivity::class.java))
+                finish()
+            }
+        })
+        
+    }
+
 }
 ```
 
