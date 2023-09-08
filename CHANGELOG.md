@@ -1,5 +1,14 @@
 # Changelog
 
+Mirrorfly UI Kit SDK has been recently updated to V1.0.26.
+Release Version: V1.0.26
+Release Date: Sep 8, 2023
+
+Release Notes :
+
+Error handling in Google Map
+View Hide in settings
+
 Mirrorfly UI Kit SDK has been recently updated to V1.0.25.
 Release Version: V1.0.25
 Release Date: Sep 1, 2023
