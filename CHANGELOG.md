@@ -1,5 +1,13 @@
 # Changelog
 
+Mirrorfly UI Kit SDK has been recently updated to V1.0.27.
+Release Version: V1.0.27
+Release Date: Nov 8, 2023
+
+Release Notes :
+
+Exception handling in initializeSDK method (Splash screen)
+
 Mirrorfly UI Kit SDK has been recently updated to V1.0.26.
 Release Version: V1.0.26
 Release Date: Sep 8, 2023
