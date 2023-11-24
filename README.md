@@ -34,7 +34,7 @@ The requirements for UI-KIT SDK for Android are:
 **Step 3:** Add the following dependencies in the app/build.gradle file.
    ```groovy
    dependencies {
-          implementation 'com.mirrorfly.uikitsdk:mf-uikitsdk:1.0.28'
+          implementation 'com.mirrorfly.uikitsdk:mf-uikitsdk:1.0.29'
     }
    ```
    
