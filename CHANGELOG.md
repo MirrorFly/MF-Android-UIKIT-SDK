@@ -1,5 +1,14 @@
 # Changelog
 
+Mirrorfly UI Kit SDK has been recently updated to V1.0.30.
+Release Version: V1.0.30
+Release Date: Dec 04, 2023
+
+Release Notes :
+
+GlideApp Access Changes
+
+
 Mirrorfly UI Kit SDK has been recently updated to V1.0.29.
 Release Version: V1.0.29
 Release Date: Nov 24, 2023
