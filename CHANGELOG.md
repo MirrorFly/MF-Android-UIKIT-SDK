@@ -1,7 +1,15 @@
 # Changelog
 
-Mirrorfly UI Kit SDK has been recently updated to V1.0.31.
+Mirrorfly UI Kit SDK has been recently updated to V1.0.32.
 Release Version: V1.0.32
+Release Date: Dec 12, 2023
+
+Release Notes :
+
+Chat History Feature Implementation
+
+Mirrorfly UI Kit SDK has been recently updated to V1.0.31.
+Release Version: V1.0.31
 Release Date: Dec 05, 2023
 
 Release Notes :
