@@ -1,5 +1,13 @@
 # Changelog
 
+Mirrorfly UI Kit SDK has been recently updated to V1.0.34.
+Release Version: V1.0.34
+Release Date: Feb 27, 2024
+
+Release Notes :
+
+Android 14 migration of SDK
+
 Mirrorfly UI Kit SDK has been recently updated to V1.0.33.
 Release Version: V1.0.33
 Release Date: Dec 16, 2023
