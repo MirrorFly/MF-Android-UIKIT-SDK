@@ -1,5 +1,22 @@
 # Changelog
 
+Mirrorfly UI Kit SDK has been recently updated to V1.0.37.
+Release Version: V1.0.37
+Release Date: June 24, 2024
+
+Release Notes :
+
+Edit Message Feature
+
+Mirrorfly UI Kit SDK has been recently updated to V1.0.36.
+Release Version: V1.0.36
+Release Date: May 08, 2024
+
+Release Notes :
+
+Exception handling on Call
+
+
 Mirrorfly UI Kit SDK has been recently updated to V1.0.35.
 Release Version: V1.0.35
 Release Date: Mar 12, 2024
