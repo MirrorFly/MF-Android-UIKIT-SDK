@@ -6,7 +6,7 @@ With CONTUS MirrorFly <a href="https://www.mirrorfly.com/docs/UIKit/android/quic
 
 When it comes to the client-side implementation, you can initialize and configure the uikitsdk with minimal efforts. With the server-side, MirrorFly ensures reliable infra-management services for the chat within the app. This page will let you know how to install the UI-KIT SDK in your app.
 
-> **Note :** If you're looking for the fastest way in action with CONTUS MirrorFly <a href="https://www.mirrorfly.com/chat-api-solution.php" target="_self">Chat SDKs</a>, then you need to build your app on top of our sample version. Simply download the sample app and commence your app development. To download sample app <a href="https://github.com/MirrorFly/-MirrorFly-Android-Sample-V2" target="_blank">click here</a>
+> **Note :** If you're looking for the fastest way in action with CONTUS MirrorFly <a href="https://www.mirrorfly.com/chat/" target="_self">Chat SDKs</a>, then you need to build your app on top of our sample version. Simply download the sample app and commence your app development. To download sample app <a href="https://github.com/MirrorFly/-MirrorFly-Android-Sample-V2" target="_blank">click here</a>
 
 
 ### Requirements
